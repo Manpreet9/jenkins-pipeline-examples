@@ -1,0 +1,5 @@
+node{
+    stage'Build'
+        bat 'jmeter -Jjmeter.save.saveservice.output_format=xml -n -t C:\\Users\\mamathar\\Projects\\LocalCollect_V2_PVT.jmx -l C:\\Users\\mamathar\\apache-jmeter-3.3\\bin\\Test.jtl'
+    echo 'Build is Complete'
+}
